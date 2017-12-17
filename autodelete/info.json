@@ -1,0 +1,7 @@
+{
+    "AUTHOR" : "LainTech",
+    "NAME" : "AutoDelete",
+    "SHORT" : "Automatically deletes invoking messages with a specified delay",
+    "DISABLED" : false
+}
+
