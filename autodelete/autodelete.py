@@ -37,8 +37,8 @@ class AutoDelete:
 
     @commands.command()
     async def delay(self, args):
-        self.auto_delete_after = int(args)
-        await self.bot.say("New delay " + str(self.auto_delete_after) + "sec")
+        self.delete_after = int(args)
+        await self.bot.say("New delay " + str(self.delete_after) + "sec")
 
 
 def setup(bot):
